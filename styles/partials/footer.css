@@ -1,0 +1,56 @@
+#footer .container {
+  color: #fff;
+}
+
+#footer h5 {
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+#footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer i.fas {
+  font-size: 14px;
+  width: 14px;
+  color: #fbbe3f;
+}
+
+#footer a {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#footer a.active {
+  color: #fbbe3f;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: #fbbe3f;
+  transition: color 200ms ease-in-out;
+}
+
+#footer li {
+  margin-bottom: 14px;
+}
+
+#footer .fa-envelope, #footer .fa-phone {
+  margin-right: 8px;
+}
+
+#footer .contact p {
+  margin-bottom: 14px;
+}
+
+#footer .links {
+  padding-left: 46px;
+}
+
+#footer hr {
+  background-color: #fff;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}

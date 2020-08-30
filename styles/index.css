@@ -1,0 +1,88 @@
+@import '../styles/partials/header.css';
+@import '../styles/partials/navbar.css';
+@import '../styles/partials/footer.css';
+
+body {
+  margin: 0;
+}
+
+#header {
+  background-color: #fcfcfc;
+}
+
+#landing {
+  height: 700px;
+  background: url('../img/landing.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#services {
+  padding: 60px;
+  background-color: #fcfcfc;
+}
+
+#services h2, #services .services-general {
+  text-align: center;
+}
+
+#services .services-general {
+  color: #777;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+#services h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#services hr {
+  width: 122px;
+}
+
+#services img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+#services h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+#services .col-md-4 p {
+  font-size: 16px;
+  line-height: 24px;
+  height: 144px;
+}
+
+#services .col-md-4 a {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 14px;
+  color: #700000;
+}
+
+#services .col-md-4 a:hover {
+  text-decoration: none;
+  color: #fbbe3f;
+  transition: color 200ms ease-in-out;
+}
+
+
+
+
+#footer {
+  background-color: #700000;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+@media (max-width: 990px) {
+  #header {
+    display: none;
+  }
+}
