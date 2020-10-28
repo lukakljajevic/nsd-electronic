@@ -44,6 +44,10 @@ nav.navbar {
   box-shadow: none;
 }
 
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
 
 @media (max-width: 990px) {
   .navbar-brand {
