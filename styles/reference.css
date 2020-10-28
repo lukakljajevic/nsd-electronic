@@ -1,0 +1,108 @@
+@import '../styles/partials/header.css';
+@import '../styles/partials/navbar.css';
+@import '../styles/partials/footer.css';
+@import '../styles/partials/breadcrumbs.css';
+
+#breadcrumbs ul {
+  padding-bottom: 62px;
+}
+
+#breadcrumbs .menu {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+#breadcrumbs .menu-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 0;
+}
+
+#breadcrumbs .menu-list li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#breadcrumbs .menu-list li a.active {
+  color: #fff;
+  font-weight: 700;
+}
+
+#breadcrumbs .menu-list li a:hover {
+  text-decoration: none;
+  color: #fbbe3f;
+  transition: color 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.menu .menu-list li a {
+  color: #fff;
+}
+
+#gradjevina,
+#metalurgija,
+#zavarivacka-oprema,
+#retrofiti,
+#proizvodnja,
+#servis {
+  display: none;
+}
+
+.kategorija {
+  margin-bottom: 32px;
+}
+
+.kategorija h1 {
+  margin-top: 42px;
+}
+
+.kategorija hr {
+  width: 70px;
+  height: 3px;
+  background-color: #fbbe3f;
+  margin-left: 0;
+  border: 0;
+}
+
+.kategorija ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.kategorija .naziv {
+  font-weight: 700;
+}
+
+.kategorija i.fas {
+  font-size: 14px;
+  width: 14px;
+  color: #fbbe3f;
+}
+
+@media (max-width: 990px) {
+  #breadcrumbs .menu {
+    overflow-x: auto;
+  }
+
+  #breadcrumbs ul.menu-list {
+    justify-content: left;
+  }
+
+  #breadcrumbs .menu-list li {
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-shrink: 0;
+  }
+
+  #breadcrumbs .menu-list li:first-of-type {
+    padding-left: 32px;
+  }
+
+  #breadcrumbs .menu-list li:last-of-type {
+    padding-right: 32px;
+  }
+}

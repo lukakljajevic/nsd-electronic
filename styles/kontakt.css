@@ -1,0 +1,90 @@
+@import '../styles/partials/header.css';
+@import '../styles/partials/navbar.css';
+@import '../styles/partials/footer.css';
+@import '../styles/partials/breadcrumbs.css';
+
+.content {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.content h2 {
+  font-weight: 400;
+}
+
+.content .fas.fa-circle {
+  color: #fbbe3f;
+  font-size: 6px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.content p {
+  margin-bottom: 8px;
+}
+
+.content p span {
+  font-weight: 500;
+}
+
+.content p a, .adresa, .vreme {
+  padding-left: 22px;
+  color: #000;
+}
+
+.content p a:hover {
+  text-decoration: none;
+  color: #fbbe3f;
+  transition: color 200ms ease-in-out;
+}
+
+.content .adresa {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content .ponedeljak {
+  margin-bottom: 24px;
+}
+
+#mapa {
+  height: 400px;
+}
+
+#mapa iframe {
+  /* height: 400px; */
+  width: 100%;
+  height: 100%;
+}
+
+#mobile-splitter {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .content {
+    padding-top: 0;
+    padding-bottom: 36px;
+    
+  }
+
+  .content h2 {
+    padding-top: 36px;
+  }
+
+  
+
+}
+
+@media (min-width: 766px) and (max-width: 990px) {
+  .content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #mobile-splitter {
+    display: block;
+  }
+}

@@ -1,0 +1,37 @@
+#breadcrumbs {
+  color: white;
+  background: url('../../img/landing.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#breadcrumbs h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  padding-top: 74px;
+  margin-bottom: 20px;
+}
+
+#breadcrumbs ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-bottom: 74px;
+  margin-bottom: 0;
+}
+
+#breadcrumbs li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#breadcrumbs a {
+  color: #fff;
+}
+
+#breadcrumbs a:hover {
+  color: #fbbe3f;
+}

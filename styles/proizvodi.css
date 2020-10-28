@@ -1,0 +1,33 @@
+@import '../styles/partials/header.css';
+@import '../styles/partials/navbar.css';
+@import '../styles/partials/footer.css';
+@import '../styles/partials/breadcrumbs.css';
+
+#proizvodi h1 {
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+#proizvodi table {
+  margin-bottom: 32px;
+}
+
+#proizvodi table thead {
+  background-color: #700000;
+  color: #fff;
+}
+
+@media (max-width: 990px) {
+  #proizvodi h1 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+
+  #tabela {
+    overflow-x: auto;
+  }
+
+  #proizvodi ul {
+    margin-bottom: 32px;
+  }
+}

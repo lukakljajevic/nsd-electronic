@@ -1,0 +1,9 @@
+@import '../styles/partials/header.css';
+@import '../styles/partials/navbar.css';
+@import '../styles/partials/footer.css';
+@import '../styles/partials/breadcrumbs.css';
+
+
+.col-lg-4 img {
+  width: 100%;
+}

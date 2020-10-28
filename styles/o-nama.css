@@ -1,0 +1,61 @@
+@import '../styles/partials/header.css';
+@import '../styles/partials/navbar.css';
+@import '../styles/partials/footer.css';
+@import '../styles/partials/breadcrumbs.css';
+
+#content {
+  padding-top: 72px;
+}
+
+#content .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#content .slika {
+  background: url('../img/landing.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 378.4px;
+}
+
+#content h2 {
+  font-size: 22px;
+}
+
+#content hr {
+  width: 70px;
+  height: 3px;
+  background-color: #fbbe3f;
+  margin-left: 0;
+  border: 0;
+}
+
+.card-header {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.btn.btn-link.btn-block {
+  color: #700000;
+}
+
+.btn.btn-link.btn-block:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+@media (max-width: 990px) {
+  #content {
+    padding-top: 0;
+    padding-bottom: 32px;
+  }
+
+  #content .row {
+    padding-bottom: 0;
+  }
+  
+  #content .slika {
+    display: none;
+  }
+}

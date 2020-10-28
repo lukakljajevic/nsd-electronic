@@ -31,6 +31,20 @@ nav.navbar {
   transition: color 200ms ease-in-out;
 }
 
+.btn.dropdown-toggle {
+  background-color: #700000;
+  color: #fff;
+  border: 0;
+  box-shadow: none;
+}
+
+.show .btn .dropdown-toggle:focus {
+  background-color: #700000;
+  border: 0;
+  box-shadow: none;
+}
+
+
 @media (max-width: 990px) {
   .navbar-brand {
     display: inline;
