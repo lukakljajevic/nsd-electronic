@@ -56,7 +56,6 @@ body {
 #services .col-md-4 p {
   font-size: 16px;
   line-height: 24px;
-  height: 144px;
 }
 
 #services .col-md-4 a {
@@ -70,6 +69,10 @@ body {
   text-decoration: none;
   color: #fbbe3f;
   transition: color 200ms ease-in-out;
+}
+
+#services a.about-links-small {
+  display: none;
 }
 
 @media (max-width: 990px) {
@@ -86,8 +89,12 @@ body {
     padding-top: 32px;
   }
 
-  #services .col-md-4 p {
-    height: auto;
+  #services a.about-links-small {
+    display: block;
+  }
+
+  #services .about-links-large {
+    display: none;
   }
 }
 

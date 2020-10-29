@@ -1,0 +1,1 @@
+document.getElementById('slika').style.height = `${document.getElementById('usluge').clientHeight}px`;

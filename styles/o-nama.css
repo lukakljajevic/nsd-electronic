@@ -16,7 +16,13 @@
   background: url('../img/landing.jpg');
   background-position: center;
   background-size: cover;
-  height: 378.4px;
+  height: 100%;
+}
+
+#content #slika {
+  background: url('../img/landing.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 #content h2 {
@@ -55,7 +61,7 @@
     padding-bottom: 0;
   }
   
-  #content .slika {
+  #content .slika, #slika {
     display: none;
   }
 }
