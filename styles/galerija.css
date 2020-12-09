@@ -3,7 +3,100 @@
 @import '../styles/partials/footer.css';
 @import '../styles/partials/breadcrumbs.css';
 
+#breadcrumbs ul {
+  padding-bottom: 62px;
+}
+
+#breadcrumbs .menu {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+#breadcrumbs .menu-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 0;
+}
+
+#breadcrumbs .menu-list li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#breadcrumbs .menu-list li a.active {
+  color: #fff;
+  font-weight: 700;
+}
+
+#breadcrumbs .menu-list li a:hover {
+  text-decoration: none;
+  color: #fbbe3f;
+  transition: color 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.menu .menu-list li a {
+  color: #fff;
+}
+
+#galerija h1 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
 
 .col-lg-4 img {
   width: 100%;
+}
+
+.row {
+  margin-bottom: 12px;
+}
+
+#video {
+  display: none;
+}
+
+#video .col-lg-4 {
+  height: 196.91px;
+}
+
+#video .col-lg-4 iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#slike hr, #video hr {
+  width: 70px;
+  height: 3px;
+  background-color: #fbbe3f;
+  margin-left: 0;
+  border: 0;
+  margin-bottom: 16px;
+}
+
+#slike, #video {
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 10px 10px 0 10px;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .col-md-12 {
+    margin-bottom: 10px;
+  }
+
+  #slike, #video {
+    padding-bottom: 0;
+  }
+
 }
